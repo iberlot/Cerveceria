@@ -201,13 +201,7 @@ Variables de decisión usadas para optimizar el proceso, mejorar la eficiencia y
     - **Descripción**: Decidir cuántos productos finales (cajas de cerveza) se almacenan antes de ser distribuidos, basado en la capacidad de almacenamiento y la demanda.
     - **Impacto**: Afecta los costos de almacenamiento y la logística de distribución.
 
-## Variables de referencia
-
-Entiendo mejor ahora, te refieres a los **KPI (Key Performance Indicators)** que se utilizarán para medir los resultados y el impacto de las modificaciones en las variables de decisión del sistema de producción de cerveza. Estos indicadores clave permiten evaluar la **eficacia, eficiencia y calidad** del proceso tras los cambios realizados en el sistema.
-
-Aquí te dejo un listado de **KPI sugeridos** para la simulación del proceso de producción de cerveza:
-
-### KPI de la Simulación de Producción de Cerveza
+## Variables de referencia (KPI)
 
 1. **Tasa de Producción (litros por hora)**
    - **Descripción**: Mide la cantidad de cerveza que la planta produce en un período de tiempo específico.
@@ -293,59 +287,53 @@ Aquí te dejo un listado de **KPI sugeridos** para la simulación del proceso de
    - **Descripción**: Un conjunto de productos (cerveza) que se procesa en una misma tanda.
    - **Atributos**: Identificador de lote, fecha de producción, cantidad de producto, destino final.
 
-9. **Flujo de Producción**
-   - **Descripción**: Representa el flujo continuo del líquido a través de las distintas fases de producción.
-   - **Atributos**: Volumen, velocidad de flujo, estado actual.
+### Recursos
 
-10. **Operarios**
-    - **Descripción**: Personas encargadas de operar las máquinas, realizar controles de calidad, y supervisar los procesos.
-    - **Atributos**: ID de operario, habilidades, turnos, estado (activo, inactivo).
-
-11. **Máquinas**
+1. **Máquinas**
     - **Descripción**: Equipos utilizados en el proceso de producción, como molinos, tanques de maceración, fermentadores, llenadoras, etiquetadoras.
     - **Atributos**: Tipo de máquina, capacidad, estado (en operación, en mantenimiento), tasa de producción.
 
-12. **Sensores y Medidores**
+2. **Sensores y Medidores**
     - **Descripción**: Dispositivos que monitorean variables como temperatura, presión, niveles de líquido, etc., en los tanques y otros equipos.
     - **Atributos**: Tipo de sensor, rango de medición, ubicación, estado (activo, inactivo).
 
-13. **Tanques de Maceración**
+3. **Tanques de Maceración**
     - **Descripción**: Los tanques donde se lleva a cabo el proceso, como la maceración.
     - **Atributos**: Capacidad, estado de ocupación, temperatura, presión.
 
-14. **Molino de Malta**
+4. **Molino de Malta**
     - **Descripción**: Tritura la malta para obtener una textura adecuada para la maceración.
     - **Atributos**: Capacidad, Tipo de molienda, Estado, Tasa de Producción
 
-15. **Hervidor**
+5. **Hervidor**
     - **Descripción**: Hierve el líquido de la maceración y añade lúpulo para el sabor y aroma.
     - **Atributos**: Capacidad, Temperatura,Tiempo de Proceso, Estado, Consumo Energético
 
-16. **Tanque de Fermentación**
+6. **Tanque de Fermentación**
     - **Descripción**: Permite que la levadura fermente los azúcares en alcohol y dióxido de carbono.
     - **Atributos**: Capacidad, Temperatura, Tiempo de Fermentación, Estado, Presión
 
-17. **Tanque de Maduración**
+7. **Tanque de Maduración**
     - **Descripción**: Almacena la cerveza fermentada para desarrollar su sabor y madurar.
     - **Atributos**: Capacidad, Temperatura, Tiempo de Maduración, Estado
 
-18. **Sistema de Filtrado**
+8. **Sistema de Filtrado**
     - **Descripción**: Elimina impurezas y sedimentos del líquido antes del envasado.
     - **Atributos**:Capacidad, Tipo de Filtro, Estado, Consumo Energético:
 
-19. **Llenadora de Botellas**
+9. **Llenadora de Botellas**
     - **Descripción**: Llena las botellas con la cerveza.
     - **Atributos**: Capacidad, Precisión de Llenado, Estado, Tipo de Tapado
 
-20. **Etiquetadora**
+10. **Etiquetadora**
     - **Descripción**: Coloca etiquetas en las botellas.
     - **Atributos**: Capacidad, Precisión de Etiquetado, Estado, Tipo de Etiquetas
 
-21. **Empacadora**
+11. **Empacadora**
     - **Descripción**: Coloca las botellas en cajas o empaques.
     - **Atributos**: Capacidad, Tipo de Empaque, Estado
 
-22. **Paletizadora**
+12. **Paletizadora**
     - **Descripción**: Organiza las cajas en paletas para el almacenamiento y transporte.
     - **Atributos**: Capacidad, Tipo de Paletización, Estado:
 
@@ -354,8 +342,6 @@ Aquí te dejo un listado de **KPI sugeridos** para la simulación del proceso de
 - **Técnicos de Mantenimiento**: Encargados de la reparación y mantenimiento de la maquinaria.
 - **Operadores de Maquinaria**: Manejan las máquinas y equipos durante el proceso de producción.
 - **Controladores de Calidad**: Inspeccionan la calidad del producto en diferentes etapas.
-
-Claro, en el contexto de una simulación de producción de cerveza, los buffers son áreas de almacenamiento o espera que ayudan a gestionar el flujo de materiales y productos a lo largo del proceso de producción. Aquí tienes un listado de buffers típicos que podrías incluir en tu simulación:
 
 ### Buffers de Materias Primas
 
