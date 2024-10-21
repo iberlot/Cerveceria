@@ -203,51 +203,51 @@ Variables de decisión usadas para optimizar el proceso, mejorar la eficiencia y
 
 ## Variables de referencia (KPI)
 
-1. **Tasa de Producción (litros por hora)**
+1. **Tasa de Producción promedio (litros por hora)**
    - **Descripción**: Mide la cantidad de cerveza que la planta produce en un período de tiempo específico.
    - **Relevancia**: Permite evaluar la eficiencia de las modificaciones en las etapas productivas y la capacidad de la planta para responder a la demanda.
 
-2. **Rendimiento de Materia Prima (%)**
+2. **Rendimiento promedio de Materia Prima (%)**
    - **Descripción**: La proporción de cerveza producida en relación con la cantidad de materia prima utilizada.
    - **Relevancia**: Ayuda a identificar mejoras en la eficiencia del uso de materias primas como malta, lúpulo, y agua tras los cambios implementados.
 
-3. **Tasa de Defectos en el Producto (%)**
+3. **Tasa de Defectos promedio en el Producto (%)**
    - **Descripción**: Porcentaje de botellas o lotes de cerveza que no cumplen con los estándares de calidad y requieren reprocesamiento o descarte.
    - **Relevancia**: Mide el impacto de los controles de calidad y la optimización del proceso para reducir productos defectuosos.
 
-4. **Tiempo de Ciclo de Producción (horas o minutos)**
+4. **Tiempo promedio de Ciclo de Producción (horas o minutos)**
    - **Descripción**: Tiempo total desde la entrada de materias primas hasta que el producto final está envasado y listo para la distribución.
    - **Relevancia**: Permite evaluar la eficiencia del sistema, midiendo la reducción de tiempos tras las modificaciones.
 
-5. **Capacidad de Producción Utilizada (%)**
+5. **Capacidad promedio de Producción Utilizada (%)**
    - **Descripción**: La proporción de la capacidad de la planta que está en uso en relación con su capacidad máxima.
    - **Relevancia**: Indica qué tan bien está optimizado el uso de recursos (como los tanques de maduración), ayudando a identificar cuellos de botella.
 
-6. **Tasa de OEE (Overall Equipment Effectiveness) (%)**
+6. **Tasa promedio de OEE (Overall Equipment Effectiveness) (%)**
    - **Descripción**: Eficiencia global del equipo, que mide la disponibilidad, el rendimiento y la calidad en la utilización del equipo.
    - **Relevancia**: Permite analizar el impacto de las modificaciones en la maquinaria y la eficiencia operativa.
 
-7. **Tasa de Reprocesos (%)**
+7. **Tasa promedio de Reprocesos (%)**
    - **Descripción**: Porcentaje de productos defectuosos que necesitan ser reprocesados antes de ser empaquetados o enviados.
    - **Relevancia**: Mide la calidad del proceso y el impacto de la optimización en las tasas de defectos.
 
-8. **Tasa de Utilización de Tanques de Maduración (%)**
+8. **Tasa promedio de Utilización de Tanques de Maduración (%)**
    - **Descripción**: Porcentaje de tiempo que los tanques de maduración están en uso durante el ciclo de producción.
    - **Relevancia**: Ayuda a determinar la eficiencia en el uso de los tanques y a identificar si hay subutilización o cuellos de botella.
 
-9. **Tasa de Disponibilidad de Maquinaria (%)**
+9. **Tasa promedio de Disponibilidad de Maquinaria (%)**
     - **Descripción**: Porcentaje de tiempo que las máquinas están operativas en comparación con el tiempo planificado para su uso.
     - **Relevancia**: Permite evaluar el impacto de las modificaciones en la reducción de tiempos de inactividad por fallos o mantenimiento.
 
-10. **Tiempo de Reprocesamiento (minutos)**
+10. **Tiempo promedio de Reprocesamiento (minutos)**
     - **Descripción**: El tiempo promedio que se tarda en corregir un lote o botella defectuosa.
     - **Relevancia**: Mide el impacto de las mejoras en el proceso de control de calidad para reducir tiempos de reprocesado.
 
-11. **Tiempo de Espera en los Buffers (minutos o horas)**
+11. **Tiempo promedio de Espera en los Buffers (minutos o horas)**
     - **Descripción**: Tiempo que los lotes o botellas pasan en los buffers (almacenamientos temporales) antes de continuar al siguiente proceso.
     - **Relevancia**: Ayuda a identificar cuellos de botella y medir la optimización en la gestión del flujo de producción.
 
-12. **Nivel de Inventario de Producto Terminado (litros o unidades)**
+12. **Nivel promedio de Inventario de Producto Terminado (litros o unidades)**
     - **Descripción**: La cantidad de producto terminado en almacenamiento antes de su distribución.
     - **Relevancia**: Sirve para medir el impacto de las modificaciones en la cadena de producción en la logística de distribución.
 
