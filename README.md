@@ -337,7 +337,7 @@ Variables de decisión usadas para optimizar el proceso, mejorar la eficiencia y
     - **Descripción**: Organiza las cajas en paletas para el almacenamiento y transporte.
     - **Atributos**: Capacidad, Tipo de Paletización, Estado:
 
-### Recursos Humanos
+13. **Recursos Humanos**
 
 - **Técnicos de Mantenimiento**: Encargados de la reparación y mantenimiento de la maquinaria.
 - **Operadores de Maquinaria**: Manejan las máquinas y equipos durante el proceso de producción.
